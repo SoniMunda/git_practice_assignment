@@ -1,23 +1,23 @@
 
 
-function checkPrime(num){
- let count=0;
- for(let i=1;i<=num;i++)
+function checkPrime(number){
+ let factor=0;
+ for(let i=1;i<=number;i++)
    
  {
-      if(num%i=0){
-        count++;
+      if(number%i=0){
+        factor++;
        }
    }
-if(count==2)
+if(factor==2)
 {
 return true 
     
 }
 return false;
 }
-let ans=checkPrime(123);
-if(ans==true)
+let answer=checkPrime(123);
+if(answer==true)
 {
 console.log("Prime No");
 }else{
